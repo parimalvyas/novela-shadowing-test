@@ -1,9 +1,7 @@
 import React from "react";
 
 function ArticlesGridTiles({ articles }) {
-  console.log("shadowing this component");
-
-  if (!articles) return null;
+  console.log("shadowing tiles component");
 
   return <div>Tiles</div>;
 }
